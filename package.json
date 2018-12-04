@@ -49,7 +49,6 @@
   },
   "scripts": {
     "lint": "tslint -p tsconfig.json 'src/**/*{.ts,tsx}'",
-    "stylelint": "stylelint 'src/**/*.tsx'",
     "test": "jest",
     "start": "webpack-dev-server -d --content-base ./public --env.dev",
     "build": "yarn webpack -p --progress --env.prod"

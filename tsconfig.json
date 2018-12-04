@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "ESNext",
-    "jsx": "preserve", // for i18n to wor
+    "jsx": "preserve", // for i18n to work
     "sourceMap": true,
     "removeComments": true,
     "strict": true,
@@ -19,10 +19,6 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "outDir": "build",
-    "typeRoots": [
-      "./node_modules/@types",
-      "./src/types"
-    ],
     "lib": [
       "es6",
       "dom",
