@@ -1,0 +1,6 @@
+last 2 versions
+> 2%
+Firefox ESR
+# maintained node versions
+node 10
+not IE > 0

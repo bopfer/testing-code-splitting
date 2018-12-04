@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "jsx": "preserve", // for i18n to wor
+    "sourceMap": true,
+    "removeComments": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
+    "lib": [
+      "es6",
+      "dom",
+      "esnext"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
